@@ -99,7 +99,7 @@ typedef struct passinfo
 #define INFO_INIT \
 
 {NULL, NULL, NULL, 0, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, \
-	0, 0, 0}
+0, 0, 0}
 
 /**
 *struct builtin - contains a builtin string and related function
@@ -156,7 +156,7 @@ char **strtow2(char *, char);
 
 /* toem_realloc.c */
 char *_memset(char *, char, unsigned int);
-void ffree(char **)
+void ffree(char **);
 void *_realloc(void *, unsigned int, unsigned int);
 
 /* toem_memory.c */
